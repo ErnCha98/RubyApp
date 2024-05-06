@@ -1778,3 +1778,2636 @@ Processing by TodosController#index as HTML
 Completed 200 OK in 13ms (Views: 10.9ms | ActiveRecord: 1.1ms | Allocations: 2628)
 
 
+Started GET "/" for 127.0.0.1 at 2024-05-06 04:42:29 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (6.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (3.6ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.5ms | Allocations: 600)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 247.0ms | Allocations: 14717)
+  Rendered layout layouts/application.html.erb (Duration: 251.0ms | Allocations: 17631)
+Completed 200 OK in 350ms (Views: 132.7ms | ActiveRecord: 129.3ms | Allocations: 27718)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2024-05-06 04:42:51 +0000
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 178.2ms | Allocations: 17208)
+  Rendered todos/new.html.erb within layouts/application (Duration: 179.5ms | Allocations: 17495)
+  Rendered layout layouts/application.html.erb (Duration: 181.3ms | Allocations: 18031)
+Completed 200 OK in 183ms (Views: 182.0ms | ActiveRecord: 0.0ms | Allocations: 18473)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 04:42:54 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.1ms | Allocations: 168)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 9.9ms | Allocations: 1974)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 2511)
+Completed 200 OK in 13ms (Views: 10.8ms | ActiveRecord: 1.4ms | Allocations: 2825)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-06 04:45:44 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.4ms | Allocations: 600)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 64.7ms | Allocations: 15755)
+  Rendered layout layouts/application.html.erb (Duration: 68.7ms | Allocations: 18636)
+Completed 200 OK in 94ms (Views: 60.7ms | ActiveRecord: 12.5ms | Allocations: 28723)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-06 04:45:56 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 0.8ms | Allocations: 168)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 1969)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 2503)
+Completed 200 OK in 13ms (Views: 10.4ms | ActiveRecord: 1.3ms | Allocations: 2818)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-06 04:46:48 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 0.9ms | Allocations: 168)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 1953)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 2487)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 1.2ms | Allocations: 2801)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-06 04:47:10 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.5ms | Allocations: 600)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 62.8ms | Allocations: 15714)
+  Rendered layout layouts/application.html.erb (Duration: 66.4ms | Allocations: 18595)
+Completed 200 OK in 90ms (Views: 57.4ms | ActiveRecord: 12.7ms | Allocations: 28682)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-06 04:48:44 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.3ms | Allocations: 600)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 71.9ms | Allocations: 15693)
+  Rendered layout layouts/application.html.erb (Duration: 76.7ms | Allocations: 18574)
+Completed 200 OK in 100ms (Views: 67.7ms | ActiveRecord: 12.7ms | Allocations: 28661)
+
+
+Started GET "/todos/3/edit" for 127.0.0.1 at 2024-05-06 04:50:16 +0000
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 8.4ms | Allocations: 2851)
+  Rendered todos/edit.html.erb within layouts/application (Duration: 9.9ms | Allocations: 3142)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 3671)
+Completed 200 OK in 86ms (Views: 12.7ms | ActiveRecord: 0.9ms | Allocations: 14870)
+
+
+Started PATCH "/todos/3" for 127.0.0.1 at 2024-05-06 04:50:24 +0000
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"test3", "description"=>"sdf", "due_date"=>"2024-05-02", "current_status"=>"pending"}, "commit"=>"Update Todo", "id"=>"3"}
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 4.1ms | Allocations: 2061)
+  Rendered todos/edit.html.erb within layouts/application (Duration: 4.6ms | Allocations: 2164)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2693)
+Completed 422 Unprocessable Entity in 12ms (Views: 6.5ms | ActiveRecord: 0.9ms | Allocations: 4776)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 04:50:32 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.0ms | Allocations: 168)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 10.5ms | Allocations: 1955)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 2489)
+Completed 200 OK in 14ms (Views: 12.1ms | ActiveRecord: 1.3ms | Allocations: 2797)
+
+
+Started PATCH "/todos/3" for 127.0.0.1 at 2024-05-06 04:50:33 +0000
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"test3", "description"=>"sdf", "due_date"=>"2024-05-02", "current_status"=>"completed"}, "commit"=>"Update Todo", "id"=>"3"}
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 3.9ms | Allocations: 1985)
+  Rendered todos/edit.html.erb within layouts/application (Duration: 4.8ms | Allocations: 2088)
+  Rendered layout layouts/application.html.erb (Duration: 41.1ms | Allocations: 2617)
+Completed 422 Unprocessable Entity in 47ms (Views: 42.2ms | ActiveRecord: 0.5ms | Allocations: 4303)
+
+
+Started PATCH "/todos/3" for 127.0.0.1 at 2024-05-06 04:50:37 +0000
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"test3", "description"=>"sdf", "due_date"=>"2024-05-02", "current_status"=>"completed"}, "commit"=>"Update Todo", "id"=>"3"}
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 4.3ms | Allocations: 2012)
+  Rendered todos/edit.html.erb within layouts/application (Duration: 4.8ms | Allocations: 2115)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 2644)
+Completed 422 Unprocessable Entity in 12ms (Views: 7.3ms | ActiveRecord: 0.4ms | Allocations: 4335)
+
+
+Started PATCH "/todos/3" for 127.0.0.1 at 2024-05-06 04:50:40 +0000
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"test3", "description"=>"sdf", "due_date"=>"2024-05-02", "current_status"=>"pending"}, "commit"=>"Update Todo", "id"=>"3"}
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 3.4ms | Allocations: 1970)
+  Rendered todos/edit.html.erb within layouts/application (Duration: 4.2ms | Allocations: 2073)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 2602)
+Completed 422 Unprocessable Entity in 12ms (Views: 7.0ms | ActiveRecord: 0.5ms | Allocations: 4289)
+
+
+Started PATCH "/todos/3" for 127.0.0.1 at 2024-05-06 04:50:41 +0000
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"test3", "description"=>"sdf", "due_date"=>"2024-05-02", "current_status"=>"pending"}, "commit"=>"Update Todo", "id"=>"3"}
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 4.1ms | Allocations: 1970)
+  Rendered todos/edit.html.erb within layouts/application (Duration: 5.2ms | Allocations: 2073)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 2602)
+Completed 422 Unprocessable Entity in 12ms (Views: 7.7ms | ActiveRecord: 0.4ms | Allocations: 4274)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 04:50:52 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.1ms | Allocations: 168)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 11.8ms | Allocations: 1967)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 2501)
+Completed 200 OK in 16ms (Views: 13.2ms | ActiveRecord: 1.7ms | Allocations: 2810)
+
+
+Started PATCH "/todos/3" for 127.0.0.1 at 2024-05-06 04:50:56 +0000
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"test3", "description"=>"sdf", "due_date"=>"2024-05-18", "current_status"=>"completed"}, "commit"=>"Update Todo", "id"=>"3"}
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:58:in `block in update'
+  [1m[36mTodo Update (45.8ms)[0m  [1m[33mUPDATE "todos" SET "due_date" = $1, "current_status" = $2, "updated_at" = $3 WHERE "todos"."id" = $4[0m  [["due_date", "2024-05-18"], ["current_status", "completed"], ["updated_at", "2024-05-06 04:50:56.896354"], ["id", 3]]
+  ↳ app/controllers/todos_controller.rb:58:in `block in update'
+  [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:58:in `block in update'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 60ms (ActiveRecord: 48.8ms | Allocations: 3737)
+
+
+Started PATCH "/todos/3" for 127.0.0.1 at 2024-05-06 04:50:59 +0000
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"test3", "description"=>"sdf", "due_date"=>"2024-05-18", "current_status"=>"completed"}, "commit"=>"Update Todo", "id"=>"3"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 6ms (ActiveRecord: 0.6ms | Allocations: 1086)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 04:51:03 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.0ms | Allocations: 172)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.3ms | Allocations: 166)
+  Rendered todos/index.html.erb within layouts/application (Duration: 9.3ms | Allocations: 1970)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 2504)
+Completed 200 OK in 13ms (Views: 10.9ms | ActiveRecord: 1.3ms | Allocations: 2812)
+
+
+Started GET "/todos/6/edit" for 127.0.0.1 at 2024-05-06 04:51:10 +0000
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 2.5ms | Allocations: 1222)
+  Rendered todos/edit.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1325)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 1854)
+Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 0.4ms | Allocations: 2579)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 04:51:22 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 172)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 166)
+  Rendered todos/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 1963)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 2497)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 1.4ms | Allocations: 2805)
+
+
+Started PATCH "/todos/6" for 127.0.0.1 at 2024-05-06 04:51:27 +0000
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"SofiaPro", "description"=>"testing", "due_date"=>"2024-05-26", "current_status"=>"completed"}, "commit"=>"Update Todo", "id"=>"6"}
+  [1m[36mTodo Load (0.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:58:in `block in update'
+  [1m[36mTodo Update (2.0ms)[0m  [1m[33mUPDATE "todos" SET "title" = $1, "due_date" = $2, "current_status" = $3, "updated_at" = $4 WHERE "todos"."id" = $5[0m  [["title", "SofiaPro"], ["due_date", "2024-05-26"], ["current_status", "completed"], ["updated_at", "2024-05-06 04:51:27.076053"], ["id", 6]]
+  ↳ app/controllers/todos_controller.rb:58:in `block in update'
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:58:in `block in update'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 12ms (ActiveRecord: 4.7ms | Allocations: 2582)
+
+
+Started PATCH "/todos/6" for 127.0.0.1 at 2024-05-06 04:51:39 +0000
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"SofiaPro", "description"=>"testing", "due_date"=>"2024-05-26", "current_status"=>"completed"}, "commit"=>"Update Todo", "id"=>"6"}
+  [1m[36mTodo Load (0.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms | Allocations: 1103)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 04:52:04 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 172)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 166)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 166)
+  Rendered todos/index.html.erb within layouts/application (Duration: 11.1ms | Allocations: 1996)
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 2530)
+Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 1.4ms | Allocations: 2841)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 04:52:10 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.5ms | Allocations: 172)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 166)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 166)
+  Rendered todos/index.html.erb within layouts/application (Duration: 9.1ms | Allocations: 1953)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 2487)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 1.2ms | Allocations: 2793)
+
+
+Started GET "/todos/5/edit" for 127.0.0.1 at 2024-05-06 04:52:15 +0000
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mTodo Load (0.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 2.5ms | Allocations: 1222)
+  Rendered todos/edit.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1325)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 1854)
+Completed 200 OK in 9ms (Views: 5.4ms | ActiveRecord: 0.3ms | Allocations: 2579)
+
+
+Started PATCH "/todos/5" for 127.0.0.1 at 2024-05-06 04:52:18 +0000
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"test9", "description"=>"fasdfasd", "due_date"=>"2024-05-09", "current_status"=>"pending"}, "commit"=>"Update Todo", "id"=>"5"}
+  [1m[36mTodo Load (0.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:58:in `block in update'
+  [1m[36mTodo Update (1.9ms)[0m  [1m[33mUPDATE "todos" SET "current_status" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["current_status", "pending"], ["updated_at", "2024-05-06 04:52:18.214354"], ["id", 5]]
+  ↳ app/controllers/todos_controller.rb:58:in `block in update'
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:58:in `block in update'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 12ms (ActiveRecord: 4.5ms | Allocations: 2564)
+
+
+Started PATCH "/todos/5" for 127.0.0.1 at 2024-05-06 04:52:19 +0000
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"test9", "description"=>"fasdfasd", "due_date"=>"2024-05-09", "current_status"=>"pending"}, "commit"=>"Update Todo", "id"=>"5"}
+  [1m[36mTodo Load (0.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 5ms (ActiveRecord: 0.3ms | Allocations: 1089)
+
+
+Started PATCH "/todos/5" for 127.0.0.1 at 2024-05-06 04:52:21 +0000
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"test9", "description"=>"fasdfasd", "due_date"=>"2024-05-09", "current_status"=>"pending"}, "commit"=>"Update Todo", "id"=>"5"}
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 5ms (ActiveRecord: 0.4ms | Allocations: 1095)
+
+
+Started PATCH "/todos/5" for 127.0.0.1 at 2024-05-06 04:52:25 +0000
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"test9", "description"=>"fasdfasd", "due_date"=>"2024-05-09", "current_status"=>"pending"}, "commit"=>"Update Todo", "id"=>"5"}
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 6ms (ActiveRecord: 0.3ms | Allocations: 1104)
+
+
+Started PATCH "/todos/5" for 127.0.0.1 at 2024-05-06 04:52:28 +0000
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"test7", "description"=>"fasdfasd", "due_date"=>"2024-05-09", "current_status"=>"pending"}, "commit"=>"Update Todo", "id"=>"5"}
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:58:in `block in update'
+  [1m[36mTodo Update (2.1ms)[0m  [1m[33mUPDATE "todos" SET "title" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["title", "test7"], ["updated_at", "2024-05-06 04:52:28.869356"], ["id", 5]]
+  ↳ app/controllers/todos_controller.rb:58:in `block in update'
+  [1m[36mTRANSACTION (4.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:58:in `block in update'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 17ms (ActiveRecord: 7.2ms | Allocations: 2572)
+
+
+Started PATCH "/todos/5" for 127.0.0.1 at 2024-05-06 04:52:30 +0000
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"test7", "description"=>"fasdfasd", "due_date"=>"2024-05-09", "current_status"=>"pending"}, "commit"=>"Update Todo", "id"=>"5"}
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 5ms (ActiveRecord: 0.4ms | Allocations: 1085)
+
+
+Started PATCH "/todos/5" for 127.0.0.1 at 2024-05-06 04:52:42 +0000
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"ErnestoProLast", "description"=>"fasdfasd", "due_date"=>"2024-05-09", "current_status"=>"pending"}, "commit"=>"Update Todo", "id"=>"5"}
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:58:in `block in update'
+  [1m[36mTodo Update (2.6ms)[0m  [1m[33mUPDATE "todos" SET "title" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["title", "ErnestoProLast"], ["updated_at", "2024-05-06 04:52:42.424850"], ["id", 5]]
+  ↳ app/controllers/todos_controller.rb:58:in `block in update'
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:58:in `block in update'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 15ms (ActiveRecord: 5.5ms | Allocations: 2552)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 04:52:43 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.1ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 166)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 1983)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 2517)
+Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 1.4ms | Allocations: 2825)
+
+
+Started DELETE "/todos/6?_method=delete" for 127.0.0.1 at 2024-05-06 04:57:52 +0000
+Processing by TodosController#destroy as TURBO_STREAM
+  Parameters: {"id"=>"6"}
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+  [1m[36mTodo Destroy (1.6ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 6]]
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+Redirected to 
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 10.0ms | Allocations: 5554)
+
+
+  
+ActionController::Redirecting::UnsafeRedirectError (Unsafe redirect to "http://proxy/3000/proxy/3000/todos", pass allow_other_host: true to redirect anyway.):
+  
+app/controllers/todos_controller.rb:73:in `block (2 levels) in destroy'
+app/controllers/todos_controller.rb:72:in `destroy'
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 04:58:13 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.0ms | Allocations: 448)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 168)
+  Rendered todos/index.html.erb within layouts/application (Duration: 19.6ms | Allocations: 5772)
+  Rendered layout layouts/application.html.erb (Duration: 23.0ms | Allocations: 8421)
+Completed 200 OK in 28ms (Views: 18.5ms | ActiveRecord: 6.2ms | Allocations: 10406)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2024-05-06 04:58:23 +0000
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 7.4ms | Allocations: 1635)
+  Rendered todos/new.html.erb within layouts/application (Duration: 10.5ms | Allocations: 1911)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 2444)
+Completed 200 OK in 23ms (Views: 20.2ms | ActiveRecord: 0.0ms | Allocations: 2874)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2024-05-06 04:58:24 +0000
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 9.4ms | Allocations: 1201)
+  Rendered todos/new.html.erb within layouts/application (Duration: 10.3ms | Allocations: 1304)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 1837)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 2167)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 04:58:25 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (1.1ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 0.8ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 2.9ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 13.8ms | Allocations: 1694)
+  Rendered layout layouts/application.html.erb (Duration: 17.1ms | Allocations: 2228)
+Completed 200 OK in 19ms (Views: 16.7ms | ActiveRecord: 1.5ms | Allocations: 2536)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2024-05-06 04:58:29 +0000
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 2.5ms | Allocations: 1180)
+  Rendered todos/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1283)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 1816)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 2145)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 04:58:43 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 1724)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 2258)
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 1.3ms | Allocations: 2566)
+
+
+Started POST "/todos" for 127.0.0.1 at 2024-05-06 04:58:47 +0000
+Processing by TodosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"New todo", "description"=>"todo test", "due_date"=>"2024-05-12", "current_status"=>"in_progress"}, "commit"=>"Create Todo"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTodo Create (119.3ms)[0m  [1m[32mINSERT INTO "todos" ("title", "description", "due_date", "current_status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "New todo"], ["description", "todo test"], ["due_date", "2024-05-12"], ["current_status", "in_progress"], ["created_at", "2024-05-06 04:58:47.066684"], ["updated_at", "2024-05-06 04:58:47.066684"]]
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 130ms (ActiveRecord: 121.8ms | Allocations: 2376)
+
+
+Started POST "/todos" for 127.0.0.1 at 2024-05-06 04:58:50 +0000
+Processing by TodosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"New todo", "description"=>"todo test", "due_date"=>"2024-05-12", "current_status"=>"in_progress"}, "commit"=>"Create Todo"}
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTodo Create (3.6ms)[0m  [1m[32mINSERT INTO "todos" ("title", "description", "due_date", "current_status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "New todo"], ["description", "todo test"], ["due_date", "2024-05-12"], ["current_status", "in_progress"], ["created_at", "2024-05-06 04:58:50.145783"], ["updated_at", "2024-05-06 04:58:50.145783"]]
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 14ms (ActiveRecord: 6.1ms | Allocations: 2112)
+
+
+Started POST "/todos" for 127.0.0.1 at 2024-05-06 04:58:51 +0000
+Processing by TodosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"New todo", "description"=>"todo test", "due_date"=>"2024-05-12", "current_status"=>"in_progress"}, "commit"=>"Create Todo"}
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTodo Create (2.7ms)[0m  [1m[32mINSERT INTO "todos" ("title", "description", "due_date", "current_status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "New todo"], ["description", "todo test"], ["due_date", "2024-05-12"], ["current_status", "in_progress"], ["created_at", "2024-05-06 04:58:51.491033"], ["updated_at", "2024-05-06 04:58:51.491033"]]
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 12ms (ActiveRecord: 5.4ms | Allocations: 2119)
+
+
+Started POST "/todos" for 127.0.0.1 at 2024-05-06 04:58:53 +0000
+Processing by TodosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"New todo", "description"=>"todo test", "due_date"=>"2024-05-12", "current_status"=>"in_progress"}, "commit"=>"Create Todo"}
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTodo Create (5.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "description", "due_date", "current_status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "New todo"], ["description", "todo test"], ["due_date", "2024-05-12"], ["current_status", "in_progress"], ["created_at", "2024-05-06 04:58:53.177054"], ["updated_at", "2024-05-06 04:58:53.177054"]]
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 16ms (ActiveRecord: 8.6ms | Allocations: 2127)
+
+
+Started POST "/todos" for 127.0.0.1 at 2024-05-06 04:58:53 +0000
+Processing by TodosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"New todo", "description"=>"todo test", "due_date"=>"2024-05-12", "current_status"=>"in_progress"}, "commit"=>"Create Todo"}
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTodo Create (2.6ms)[0m  [1m[32mINSERT INTO "todos" ("title", "description", "due_date", "current_status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "New todo"], ["description", "todo test"], ["due_date", "2024-05-12"], ["current_status", "in_progress"], ["created_at", "2024-05-06 04:58:53.574914"], ["updated_at", "2024-05-06 04:58:53.574914"]]
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 12ms (ActiveRecord: 5.5ms | Allocations: 2116)
+
+
+Started POST "/todos" for 127.0.0.1 at 2024-05-06 04:58:54 +0000
+Processing by TodosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"New todo", "description"=>"todo test", "due_date"=>"2024-05-12", "current_status"=>"in_progress"}, "commit"=>"Create Todo"}
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTodo Create (2.5ms)[0m  [1m[32mINSERT INTO "todos" ("title", "description", "due_date", "current_status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "New todo"], ["description", "todo test"], ["due_date", "2024-05-12"], ["current_status", "in_progress"], ["created_at", "2024-05-06 04:58:54.567802"], ["updated_at", "2024-05-06 04:58:54.567802"]]
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 12ms (ActiveRecord: 5.3ms | Allocations: 2119)
+
+
+Started POST "/todos" for 127.0.0.1 at 2024-05-06 04:58:56 +0000
+Processing by TodosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"New todo", "description"=>"todo test", "due_date"=>"2024-05-12", "current_status"=>"in_progress"}, "commit"=>"Create Todo"}
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTodo Create (2.8ms)[0m  [1m[32mINSERT INTO "todos" ("title", "description", "due_date", "current_status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "New todo"], ["description", "todo test"], ["due_date", "2024-05-12"], ["current_status", "in_progress"], ["created_at", "2024-05-06 04:58:56.175077"], ["updated_at", "2024-05-06 04:58:56.175077"]]
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 13ms (ActiveRecord: 5.9ms | Allocations: 2125)
+
+
+Started POST "/todos" for 127.0.0.1 at 2024-05-06 04:58:57 +0000
+Processing by TodosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"New todo", "description"=>"todo test", "due_date"=>"2024-05-12", "current_status"=>"in_progress"}, "commit"=>"Create Todo"}
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTodo Create (2.6ms)[0m  [1m[32mINSERT INTO "todos" ("title", "description", "due_date", "current_status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "New todo"], ["description", "todo test"], ["due_date", "2024-05-12"], ["current_status", "in_progress"], ["created_at", "2024-05-06 04:58:57.712109"], ["updated_at", "2024-05-06 04:58:57.712109"]]
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 12ms (ActiveRecord: 5.4ms | Allocations: 2113)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 04:59:00 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/index.html.erb within layouts/application (Duration: 24.8ms | Allocations: 3736)
+  Rendered layout layouts/application.html.erb (Duration: 26.6ms | Allocations: 4270)
+Completed 200 OK in 28ms (Views: 26.2ms | ActiveRecord: 1.2ms | Allocations: 4579)
+
+
+Started POST "/todos" for 127.0.0.1 at 2024-05-06 04:59:01 +0000
+Processing by TodosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"New todo", "description"=>"todo test", "due_date"=>"2024-05-12", "current_status"=>"in_progress"}, "commit"=>"Create Todo"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTodo Create (2.4ms)[0m  [1m[32mINSERT INTO "todos" ("title", "description", "due_date", "current_status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "New todo"], ["description", "todo test"], ["due_date", "2024-05-12"], ["current_status", "in_progress"], ["created_at", "2024-05-06 04:59:01.883715"], ["updated_at", "2024-05-06 04:59:01.883715"]]
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 12ms (ActiveRecord: 5.0ms | Allocations: 2108)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2024-05-06 04:59:48 +0000
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 2.9ms | Allocations: 1666)
+  Rendered todos/new.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1952)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 4585)
+Completed 200 OK in 20ms (Views: 9.3ms | ActiveRecord: 3.9ms | Allocations: 9568)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 04:59:57 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.1ms | Allocations: 435)
+  Rendered todos/_todo.html.erb (Duration: 0.8ms | Allocations: 168)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.3ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.3ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.3ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.3ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.3ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/index.html.erb within layouts/application (Duration: 16.3ms | Allocations: 4849)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 5383)
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 1.2ms | Allocations: 5822)
+
+
+Started POST "/todos" for 127.0.0.1 at 2024-05-06 04:59:59 +0000
+Processing by TodosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"tes", "description"=>"123413424", "due_date"=>"2024-05-19", "current_status"=>"pending"}, "commit"=>"Create Todo"}
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTodo Create (4.4ms)[0m  [1m[32mINSERT INTO "todos" ("title", "description", "due_date", "current_status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "tes"], ["description", "123413424"], ["due_date", "2024-05-19"], ["current_status", "pending"], ["created_at", "2024-05-06 04:59:59.475860"], ["updated_at", "2024-05-06 04:59:59.475860"]]
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 6.8ms | Allocations: 2482)
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"todos"}, missing required keys: [:id]):
+  
+app/controllers/todos_controller.rb:46:in `block (2 levels) in create'
+app/controllers/todos_controller.rb:44:in `create'
+Started GET "/todos/new" for 127.0.0.1 at 2024-05-06 05:00:13 +0000
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 9.2ms | Allocations: 1670)
+  Rendered todos/new.html.erb within layouts/application (Duration: 12.2ms | Allocations: 1954)
+  Rendered layout layouts/application.html.erb (Duration: 22.3ms | Allocations: 4587)
+Completed 200 OK in 38ms (Views: 24.3ms | ActiveRecord: 4.0ms | Allocations: 9572)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 05:00:21 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 2.5ms | Allocations: 435)
+  Rendered todos/_todo.html.erb (Duration: 2.0ms | Allocations: 168)
+  Rendered todos/_todo.html.erb (Duration: 1.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 1.3ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 1.6ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 2.7ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 2.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 1.3ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 39.7ms | Allocations: 5089)
+  Rendered layout layouts/application.html.erb (Duration: 46.3ms | Allocations: 5623)
+Completed 200 OK in 51ms (Views: 45.9ms | ActiveRecord: 1.2ms | Allocations: 6062)
+
+
+Started POST "/todos" for 127.0.0.1 at 2024-05-06 05:00:23 +0000
+Processing by TodosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"efdf", "description"=>"asdfasd", "due_date"=>"2024-05-18", "current_status"=>"pending"}, "commit"=>"Create Todo"}
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTodo Create (24.1ms)[0m  [1m[32mINSERT INTO "todos" ("title", "description", "due_date", "current_status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "efdf"], ["description", "asdfasd"], ["due_date", "2024-05-18"], ["current_status", "pending"], ["created_at", "2024-05-06 05:00:23.082410"], ["updated_at", "2024-05-06 05:00:23.082410"]]
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 39ms (ActiveRecord: 26.7ms | Allocations: 2290)
+
+
+Started POST "/todos" for 127.0.0.1 at 2024-05-06 05:00:23 +0000
+Processing by TodosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"efdf", "description"=>"asdfasd", "due_date"=>"2024-05-18", "current_status"=>"pending"}, "commit"=>"Create Todo"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTodo Create (2.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "description", "due_date", "current_status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "efdf"], ["description", "asdfasd"], ["due_date", "2024-05-18"], ["current_status", "pending"], ["created_at", "2024-05-06 05:00:23.886757"], ["updated_at", "2024-05-06 05:00:23.886757"]]
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 12ms (ActiveRecord: 4.5ms | Allocations: 2123)
+
+
+Started POST "/todos" for 127.0.0.1 at 2024-05-06 05:00:24 +0000
+Processing by TodosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"efdf", "description"=>"asdfasd", "due_date"=>"2024-05-18", "current_status"=>"pending"}, "commit"=>"Create Todo"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTodo Create (2.4ms)[0m  [1m[32mINSERT INTO "todos" ("title", "description", "due_date", "current_status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "efdf"], ["description", "asdfasd"], ["due_date", "2024-05-18"], ["current_status", "pending"], ["created_at", "2024-05-06 05:00:24.318035"], ["updated_at", "2024-05-06 05:00:24.318035"]]
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 10ms (ActiveRecord: 4.8ms | Allocations: 2137)
+
+
+Started POST "/todos" for 127.0.0.1 at 2024-05-06 05:00:24 +0000
+Processing by TodosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"efdf", "description"=>"asdfasd", "due_date"=>"2024-05-18", "current_status"=>"pending"}, "commit"=>"Create Todo"}
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTodo Create (2.6ms)[0m  [1m[32mINSERT INTO "todos" ("title", "description", "due_date", "current_status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "efdf"], ["description", "asdfasd"], ["due_date", "2024-05-18"], ["current_status", "pending"], ["created_at", "2024-05-06 05:00:24.748685"], ["updated_at", "2024-05-06 05:00:24.748685"]]
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 11ms (ActiveRecord: 5.4ms | Allocations: 2125)
+
+
+Started POST "/todos" for 127.0.0.1 at 2024-05-06 05:00:25 +0000
+Processing by TodosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"efdf", "description"=>"asdfasd", "due_date"=>"2024-05-18", "current_status"=>"pending"}, "commit"=>"Create Todo"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTodo Create (2.4ms)[0m  [1m[32mINSERT INTO "todos" ("title", "description", "due_date", "current_status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "efdf"], ["description", "asdfasd"], ["due_date", "2024-05-18"], ["current_status", "pending"], ["created_at", "2024-05-06 05:00:25.174103"], ["updated_at", "2024-05-06 05:00:25.174103"]]
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 12ms (ActiveRecord: 4.7ms | Allocations: 2122)
+
+
+Started POST "/todos" for 127.0.0.1 at 2024-05-06 05:00:25 +0000
+Processing by TodosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"efdf", "description"=>"asdfasd", "due_date"=>"2024-05-18", "current_status"=>"pending"}, "commit"=>"Create Todo"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTodo Create (2.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "description", "due_date", "current_status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "efdf"], ["description", "asdfasd"], ["due_date", "2024-05-18"], ["current_status", "pending"], ["created_at", "2024-05-06 05:00:25.638407"], ["updated_at", "2024-05-06 05:00:25.638407"]]
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 10ms (ActiveRecord: 4.9ms | Allocations: 2125)
+
+
+Started POST "/todos" for 127.0.0.1 at 2024-05-06 05:00:25 +0000
+Processing by TodosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"efdf", "description"=>"asdfasd", "due_date"=>"2024-05-18", "current_status"=>"pending"}, "commit"=>"Create Todo"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTodo Create (2.5ms)[0m  [1m[32mINSERT INTO "todos" ("title", "description", "due_date", "current_status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "efdf"], ["description", "asdfasd"], ["due_date", "2024-05-18"], ["current_status", "pending"], ["created_at", "2024-05-06 05:00:25.949155"], ["updated_at", "2024-05-06 05:00:25.949155"]]
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 11ms (ActiveRecord: 4.9ms | Allocations: 2131)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 05:00:47 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 2.3ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.3ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.3ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.3ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.3ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.3ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 22.7ms | Allocations: 6015)
+  Rendered layout layouts/application.html.erb (Duration: 24.1ms | Allocations: 6549)
+Completed 200 OK in 26ms (Views: 23.8ms | ActiveRecord: 1.2ms | Allocations: 6858)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2024-05-06 05:01:17 +0000
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 3.5ms | Allocations: 1177)
+  Rendered todos/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1280)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 1813)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 2140)
+
+
+Started POST "/todos" for 127.0.0.1 at 2024-05-06 05:01:30 +0000
+Processing by TodosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"sadf", "description"=>"asdf", "due_date"=>"2024-05-24", "current_status"=>"in_progress"}, "commit"=>"Create Todo"}
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTodo Create (2.5ms)[0m  [1m[32mINSERT INTO "todos" ("title", "description", "due_date", "current_status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "sadf"], ["description", "asdf"], ["due_date", "2024-05-24"], ["current_status", "in_progress"], ["created_at", "2024-05-06 05:01:30.954814"], ["updated_at", "2024-05-06 05:01:30.954814"]]
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+Redirected to http://34.29.165.140/proxy/3000/todos
+Completed 302 Found in 10ms (ActiveRecord: 4.8ms | Allocations: 2107)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-06 05:23:29 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (8.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (37.0ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.4ms | Allocations: 592)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 174)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.3ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/index.html.erb within layouts/application (Duration: 252.1ms | Allocations: 18954)
+  Rendered layout layouts/application.html.erb (Duration: 256.3ms | Allocations: 21868)
+Completed 200 OK in 425ms (Views: 110.0ms | ActiveRecord: 163.2ms | Allocations: 31955)
+
+
+Started GET "/todos/3/edit" for 127.0.0.1 at 2024-05-06 05:23:38 +0000
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 337.2ms | Allocations: 3752)
+  Rendered todos/edit.html.erb within layouts/application (Duration: 339.3ms | Allocations: 4043)
+  Rendered layout layouts/application.html.erb (Duration: 342.1ms | Allocations: 4575)
+Completed 200 OK in 395ms (Views: 343.2ms | ActiveRecord: 0.8ms | Allocations: 6797)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 05:23:45 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/index.html.erb within layouts/application (Duration: 19.7ms | Allocations: 6251)
+  Rendered layout layouts/application.html.erb (Duration: 21.3ms | Allocations: 6788)
+Completed 200 OK in 23ms (Views: 20.9ms | ActiveRecord: 1.1ms | Allocations: 7102)
+
+
+Started GET "/todos/8/edit" for 127.0.0.1 at 2024-05-06 05:23:47 +0000
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 3.7ms | Allocations: 1219)
+  Rendered todos/edit.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1322)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 1854)
+Completed 200 OK in 11ms (Views: 6.7ms | ActiveRecord: 0.7ms | Allocations: 2594)
+
+
+Started PATCH "/todos/8" for 127.0.0.1 at 2024-05-06 05:23:51 +0000
+Processing by TodosController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"New todo 345345", "description"=>"todo test", "due_date"=>"2024-05-12", "current_status"=>"pending"}, "commit"=>"Update Todo", "id"=>"8"}
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:58:in `block in update'
+  [1m[36mTodo Update (56.9ms)[0m  [1m[33mUPDATE "todos" SET "title" = $1, "current_status" = $2, "updated_at" = $3 WHERE "todos"."id" = $4[0m  [["title", "New todo 345345"], ["current_status", "pending"], ["updated_at", "2024-05-06 05:23:51.705116"], ["id", 8]]
+  ↳ app/controllers/todos_controller.rb:58:in `block in update'
+  [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:58:in `block in update'
+Redirected to http://35.194.33.151/proxy/3000/todos
+Completed 302 Found in 99ms (ActiveRecord: 60.0ms | Allocations: 4067)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 05:23:52 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 1.2ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 1.0ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 19.3ms | Allocations: 6262)
+  Rendered layout layouts/application.html.erb (Duration: 20.5ms | Allocations: 6799)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 1.0ms | Allocations: 7107)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-06 05:24:23 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.6ms | Allocations: 592)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 174)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.8ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 74.8ms | Allocations: 19974)
+  Rendered layout layouts/application.html.erb (Duration: 78.7ms | Allocations: 22877)
+Completed 200 OK in 101ms (Views: 69.4ms | ActiveRecord: 12.7ms | Allocations: 32970)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-06 05:26:00 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.4ms | Allocations: 592)
+  Rendered todos/_todo.html.erb (Duration: 0.8ms | Allocations: 174)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.3ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 75.4ms | Allocations: 20021)
+  Rendered layout layouts/application.html.erb (Duration: 79.2ms | Allocations: 22902)
+Completed 200 OK in 102ms (Views: 69.6ms | ActiveRecord: 13.2ms | Allocations: 32989)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-06 05:26:19 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.3ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 23.3ms | Allocations: 6245)
+  Rendered layout layouts/application.html.erb (Duration: 26.0ms | Allocations: 6779)
+Completed 200 OK in 28ms (Views: 25.5ms | ActiveRecord: 1.5ms | Allocations: 7094)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-06 05:26:21 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.3ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 22.2ms | Allocations: 6250)
+  Rendered layout layouts/application.html.erb (Duration: 24.0ms | Allocations: 6784)
+Completed 200 OK in 26ms (Views: 23.8ms | ActiveRecord: 1.2ms | Allocations: 7098)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-06 05:27:49 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.4ms | Allocations: 592)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 174)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 93.0ms | Allocations: 19993)
+  Rendered layout layouts/application.html.erb (Duration: 96.5ms | Allocations: 22874)
+Completed 200 OK in 131ms (Views: 87.6ms | ActiveRecord: 14.2ms | Allocations: 32961)
+
+
+Started DELETE "/todos/5?_method=delete" for 127.0.0.1 at 2024-05-06 05:28:06 +0000
+Processing by TodosController#destroy as TURBO_STREAM
+  Parameters: {"id"=>"5"}
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+  [1m[36mTodo Destroy (2.9ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 5]]
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+  [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+Redirected to http://35.194.33.151/proxy/3000/todos
+Completed 302 Found in 20ms (ActiveRecord: 6.3ms | Allocations: 3875)
+
+
+Started DELETE "/todos/12?_method=delete" for 127.0.0.1 at 2024-05-06 05:28:13 +0000
+Processing by TodosController#destroy as TURBO_STREAM
+  Parameters: {"id"=>"12"}
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+  [1m[36mTodo Destroy (2.5ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 12]]
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+  [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+Redirected to http://35.194.33.151/proxy/3000/todos
+Completed 302 Found in 15ms (ActiveRecord: 5.8ms | Allocations: 2119)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-06 05:28:33 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 19.8ms | Allocations: 5756)
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 6290)
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 1.2ms | Allocations: 6606)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-06 05:29:12 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (1.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.9ms | Allocations: 592)
+  Rendered todos/_todo.html.erb (Duration: 0.9ms | Allocations: 178)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 1.1ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.8ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 8.7ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.9ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 191.3ms | Allocations: 19468)
+  Rendered layout layouts/application.html.erb (Duration: 197.0ms | Allocations: 22371)
+Completed 200 OK in 242ms (Views: 176.8ms | ActiveRecord: 27.9ms | Allocations: 32458)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-06 05:34:22 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.5ms | Allocations: 592)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 178)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 86.1ms | Allocations: 19484)
+  Rendered layout layouts/application.html.erb (Duration: 99.4ms | Allocations: 21238)
+Completed 500 Internal Server Error in 136ms (ActiveRecord: 12.8ms | Allocations: 31289)
+
+
+  
+ActionView::Template::Error (The asset "tailwind.css" is not present in the asset pipeline.
+):
+     5:     <meta name="viewport" content="width=device-width,initial-scale=1">
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8:     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= javascript_importmap_tags %>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for 127.0.0.1 at 2024-05-06 05:35:50 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.8ms | Allocations: 592)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 178)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 84.1ms | Allocations: 19476)
+  Rendered layout layouts/application.html.erb (Duration: 88.5ms | Allocations: 22357)
+Completed 200 OK in 116ms (Views: 78.5ms | ActiveRecord: 14.6ms | Allocations: 32444)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2024-05-06 05:35:57 +0000
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 7.4ms | Allocations: 2789)
+  Rendered todos/new.html.erb within layouts/application (Duration: 9.0ms | Allocations: 3076)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 3609)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 4045)
+
+
+Started DELETE "/todos/3?_method=delete" for 127.0.0.1 at 2024-05-06 05:41:24 +0000
+Processing by TodosController#destroy as TURBO_STREAM
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+  [1m[36mTodo Destroy (2.2ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 3]]
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+  [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+Redirected to http://35.194.33.151/proxy/3000/todos
+Completed 302 Found in 17ms (ActiveRecord: 5.8ms | Allocations: 3835)
+
+
+Started DELETE "/todos/9?_method=delete" for 127.0.0.1 at 2024-05-06 05:43:25 +0000
+Processing by TodosController#destroy as TURBO_STREAM
+  Parameters: {"id"=>"9"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+  [1m[36mTodo Destroy (2.6ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 9]]
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+  [1m[36mTRANSACTION (3.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+Redirected to http://35.194.33.151/proxy/3000/todos
+Completed 302 Found in 16ms (ActiveRecord: 6.8ms | Allocations: 2101)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-06 05:45:59 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 2.2ms | Allocations: 601)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.8ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 82.1ms | Allocations: 19014)
+  Rendered layout layouts/application.html.erb (Duration: 86.6ms | Allocations: 21895)
+Completed 200 OK in 112ms (Views: 74.9ms | ActiveRecord: 16.1ms | Allocations: 31982)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2024-05-06 05:46:04 +0000
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 7.7ms | Allocations: 2786)
+  Rendered todos/new.html.erb within layouts/application (Duration: 9.3ms | Allocations: 3073)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 3606)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 4042)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2024-05-06 05:46:13 +0000
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 2.6ms | Allocations: 1165)
+  Rendered todos/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1268)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 1801)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 2136)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-06 05:46:24 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (1.1ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.1ms | Allocations: 172)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.3ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 20.5ms | Allocations: 5234)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | Allocations: 5768)
+Completed 200 OK in 24ms (Views: 21.6ms | ActiveRecord: 1.5ms | Allocations: 6082)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2024-05-06 05:46:34 +0000
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 38.7ms | Allocations: 1162)
+  Rendered todos/new.html.erb within layouts/application (Duration: 39.6ms | Allocations: 1265)
+  Rendered layout layouts/application.html.erb (Duration: 42.5ms | Allocations: 1798)
+Completed 200 OK in 45ms (Views: 43.7ms | ActiveRecord: 0.0ms | Allocations: 2128)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-06 05:57:41 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.7ms | Allocations: 604)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 69.4ms | Allocations: 18974)
+  Rendered layout layouts/application.html.erb (Duration: 73.3ms | Allocations: 21877)
+Completed 200 OK in 99ms (Views: 65.7ms | ActiveRecord: 11.8ms | Allocations: 31970)
+
+
+Started GET "/todos/7" for 127.0.0.1 at 2024-05-06 05:57:44 +0000
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 181)
+  Rendered todos/show.html.erb within layouts/application (Duration: 3.1ms | Allocations: 944)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 1476)
+Completed 200 OK in 11ms (Views: 5.1ms | ActiveRecord: 0.6ms | Allocations: 3692)
+
+
+Started DELETE "/todos/7" for 127.0.0.1 at 2024-05-06 05:57:52 +0000
+Processing by TodosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"7"}
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+  [1m[36mTodo Destroy (2.4ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 7]]
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+  [1m[36mTRANSACTION (24.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+Redirected to http://35.194.33.151/proxy/3000/todos
+Completed 302 Found in 35ms (ActiveRecord: 27.5ms | Allocations: 2437)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 05:57:52 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 0.8ms | Allocations: 172)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 19.5ms | Allocations: 5005)
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 5542)
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 1.4ms | Allocations: 5857)
+
+
+Started GET "/todos/10" for 127.0.0.1 at 2024-05-06 05:57:54 +0000
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/_todo.html.erb (Duration: 0.9ms | Allocations: 181)
+  Rendered todos/show.html.erb within layouts/application (Duration: 3.1ms | Allocations: 719)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 1251)
+Completed 200 OK in 10ms (Views: 5.7ms | ActiveRecord: 0.5ms | Allocations: 1947)
+
+
+Started DELETE "/todos/10" for 127.0.0.1 at 2024-05-06 05:57:55 +0000
+Processing by TodosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"10"}
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+  [1m[36mTodo Destroy (2.0ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 10]]
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+Redirected to http://35.194.33.151/proxy/3000/todos
+Completed 302 Found in 13ms (ActiveRecord: 5.1ms | Allocations: 2043)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 05:57:56 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 172)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 17.3ms | Allocations: 4733)
+  Rendered layout layouts/application.html.erb (Duration: 43.8ms | Allocations: 5270)
+Completed 200 OK in 46ms (Views: 43.4ms | ActiveRecord: 1.2ms | Allocations: 5577)
+
+
+Started GET "/todos/11" for 127.0.0.1 at 2024-05-06 05:58:07 +0000
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 181)
+  Rendered todos/show.html.erb within layouts/application (Duration: 3.8ms | Allocations: 713)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 1245)
+Completed 200 OK in 10ms (Views: 6.4ms | ActiveRecord: 0.4ms | Allocations: 1927)
+
+
+Started GET "/todos/11" for 127.0.0.1 at 2024-05-06 05:59:08 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/_todo.html.erb (Duration: 4.9ms | Allocations: 781)
+  Rendered todos/show.html.erb within layouts/application (Duration: 25.3ms | Allocations: 3113)
+  Rendered layout layouts/application.html.erb (Duration: 33.3ms | Allocations: 5941)
+Completed 200 OK in 170ms (Views: 42.6ms | ActiveRecord: 23.2ms | Allocations: 28705)
+
+
+Started GET "/todos/11" for 127.0.0.1 at 2024-05-06 05:59:54 +0000
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 181)
+  Rendered todos/show.html.erb within layouts/application (Duration: 2.7ms | Allocations: 703)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 1235)
+Completed 200 OK in 9ms (Views: 5.3ms | ActiveRecord: 0.5ms | Allocations: 1935)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 05:59:57 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 172)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 18.8ms | Allocations: 5280)
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | Allocations: 5817)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 1.1ms | Allocations: 6230)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 06:00:52 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.3ms | Allocations: 454)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 1.0ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 30.2ms | Allocations: 8666)
+  Rendered layout layouts/application.html.erb (Duration: 59.6ms | Allocations: 11337)
+Completed 200 OK in 65ms (Views: 56.8ms | ActiveRecord: 4.6ms | Allocations: 13319)
+
+
+Started GET "/todos/11" for 127.0.0.1 at 2024-05-06 06:01:24 +0000
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/_todo.html.erb (Duration: 1.0ms | Allocations: 181)
+  Rendered todos/show.html.erb within layouts/application (Duration: 4.6ms | Allocations: 914)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 1446)
+Completed 200 OK in 13ms (Views: 7.6ms | ActiveRecord: 0.5ms | Allocations: 2830)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2024-05-06 06:01:29 +0000
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 18.1ms | Allocations: 16253)
+  Rendered todos/new.html.erb within layouts/application (Duration: 19.6ms | Allocations: 16538)
+  Rendered layout layouts/application.html.erb (Duration: 21.9ms | Allocations: 17074)
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.0ms | Allocations: 17495)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-06 06:03:42 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 2.0ms | Allocations: 604)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 84.0ms | Allocations: 18480)
+  Rendered layout layouts/application.html.erb (Duration: 88.1ms | Allocations: 21361)
+Completed 200 OK in 115ms (Views: 76.0ms | ActiveRecord: 16.9ms | Allocations: 31448)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-06 06:04:07 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 0.9ms | Allocations: 172)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.9ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.9ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 20.1ms | Allocations: 4727)
+  Rendered layout layouts/application.html.erb (Duration: 21.8ms | Allocations: 5261)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 1.5ms | Allocations: 5576)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-06 06:04:47 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 2.5ms | Allocations: 604)
+  Rendered todos/_todo.html.erb (Duration: 0.8ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.8ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 111.8ms | Allocations: 18462)
+  Rendered layout layouts/application.html.erb (Duration: 118.8ms | Allocations: 21343)
+Completed 200 OK in 172ms (Views: 106.9ms | ActiveRecord: 19.8ms | Allocations: 31430)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2024-05-06 06:04:52 +0000
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 7.6ms | Allocations: 2804)
+  Rendered todos/new.html.erb within layouts/application (Duration: 9.3ms | Allocations: 3091)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 3624)
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 4066)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2024-05-06 06:05:10 +0000
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 2.9ms | Allocations: 1162)
+  Rendered todos/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1265)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 1798)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 2133)
+
+
+Started GET "/todos/filter" for 127.0.0.1 at 2024-05-06 06:07:06 +0000
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"filter"}
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+Completed 404 Not Found in 17ms (ActiveRecord: 0.6ms | Allocations: 11255)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Todo with 'id'=filter):
+  
+app/controllers/todos_controller.rb:81:in `set_todo'
+Started GET "/" for 127.0.0.1 at 2024-05-06 06:12:27 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.9ms | Allocations: 454)
+  Rendered todos/_todo.html.erb (Duration: 1.1ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.8ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.9ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 1.0ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.9ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 38.9ms | Allocations: 8665)
+  Rendered layout layouts/application.html.erb (Duration: 54.3ms | Allocations: 11315)
+Completed 200 OK in 62ms (Views: 50.9ms | ActiveRecord: 6.0ms | Allocations: 13302)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-06 06:13:44 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.3ms | Allocations: 454)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 27.7ms | Allocations: 8664)
+  Rendered layout layouts/application.html.erb (Duration: 30.9ms | Allocations: 11311)
+Completed 200 OK in 37ms (Views: 28.2ms | ActiveRecord: 4.7ms | Allocations: 13297)
+
+
+Started GET "/todo/filter/pending" for 127.0.0.1 at 2024-05-06 06:14:49 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/todo/filter/pending"):
+  
+Started GET "/todo/filter/1" for 127.0.0.1 at 2024-05-06 06:14:56 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/todo/filter/1"):
+  
+Started GET "/todo/filter/4" for 127.0.0.1 at 2024-05-06 06:14:59 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/todo/filter/4"):
+  
+Started GET "/todo/filter/1" for 127.0.0.1 at 2024-05-06 06:15:21 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/todo/filter/1"):
+  
+Started GET "/todo/filter/1" for 127.0.0.1 at 2024-05-06 06:15:55 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/todo/filter/1"):
+  
+Started GET "/todo/filter/4" for 127.0.0.1 at 2024-05-06 06:16:08 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/todo/filter/4"):
+  
+Started GET "/todo/filter/1" for 127.0.0.1 at 2024-05-06 06:16:09 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/todo/filter/1"):
+  
+Started GET "/todo/filter/pending" for 127.0.0.1 at 2024-05-06 06:16:10 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/todo/filter/pending"):
+  
+Started GET "/" for 127.0.0.1 at 2024-05-06 06:16:14 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 2.1ms | Allocations: 454)
+  Rendered todos/_todo.html.erb (Duration: 0.9ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.8ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 36.3ms | Allocations: 8670)
+  Rendered layout layouts/application.html.erb (Duration: 40.1ms | Allocations: 11320)
+Completed 200 OK in 47ms (Views: 36.4ms | ActiveRecord: 5.9ms | Allocations: 13269)
+
+
+Started GET "/todo/filter/1" for 127.0.0.1 at 2024-05-06 06:17:36 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/todo/filter/1"):
+  
+Started GET "/todo/filter/1" for 127.0.0.1 at 2024-05-06 06:18:01 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/todo/filter/1"):
+  
+Started GET "/todo/filter/1" for 127.0.0.1 at 2024-05-06 06:18:27 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/todo/filter/1"):
+  
+Started GET "/todo/filter/1" for 127.0.0.1 at 2024-05-06 06:18:46 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/todo/filter/1"):
+  
+Started GET "/" for 127.0.0.1 at 2024-05-06 06:21:39 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.5ms | Allocations: 594)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 66.7ms | Allocations: 17199)
+  Rendered layout layouts/application.html.erb (Duration: 71.4ms | Allocations: 20041)
+Completed 200 OK in 93ms (Views: 60.6ms | ActiveRecord: 13.0ms | Allocations: 28066)
+
+
+Started DELETE "/todos/11?_method=delete" for 127.0.0.1 at 2024-05-06 06:22:36 +0000
+Processing by TodosController#destroy as TURBO_STREAM
+  Parameters: {"id"=>"11"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+  [1m[36mTodo Destroy (4.2ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 11]]
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+  [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+Redirected to http://35.194.33.151/proxy/3000/todos
+Completed 302 Found in 27ms (ActiveRecord: 7.8ms | Allocations: 3846)
+
+
+Started GET "/todos/11?_method=delete" for 127.0.0.1 at 2024-05-06 06:22:53 +0000
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+Completed 404 Not Found in 4ms (ActiveRecord: 0.5ms | Allocations: 961)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Todo with 'id'=11):
+  
+app/controllers/todos_controller.rb:81:in `set_todo'
+Started GET "/todos/11" for 127.0.0.1 at 2024-05-06 06:23:14 +0000
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+Completed 404 Not Found in 4ms (ActiveRecord: 0.4ms | Allocations: 920)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Todo with 'id'=11):
+  
+app/controllers/todos_controller.rb:81:in `set_todo'
+Started GET "/todos/10" for 127.0.0.1 at 2024-05-06 06:23:20 +0000
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.3ms | Allocations: 911)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Todo with 'id'=10):
+  
+app/controllers/todos_controller.rb:81:in `set_todo'
+Started GET "/todos/11" for 127.0.0.1 at 2024-05-06 06:23:24 +0000
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+Completed 404 Not Found in 6ms (ActiveRecord: 0.4ms | Allocations: 914)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Todo with 'id'=11):
+  
+app/controllers/todos_controller.rb:81:in `set_todo'
+Started GET "/todos/1" for 127.0.0.1 at 2024-05-06 06:23:29 +0000
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+Completed 404 Not Found in 4ms (ActiveRecord: 0.4ms | Allocations: 910)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Todo with 'id'=1):
+  
+app/controllers/todos_controller.rb:81:in `set_todo'
+Started GET "/todos/6" for 127.0.0.1 at 2024-05-06 06:23:43 +0000
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mTodo Load (0.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.3ms | Allocations: 910)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Todo with 'id'=6):
+  
+app/controllers/todos_controller.rb:81:in `set_todo'
+Started GET "/" for 127.0.0.1 at 2024-05-06 06:24:48 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.8ms | Allocations: 601)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 76.9ms | Allocations: 18244)
+  Rendered layout layouts/application.html.erb (Duration: 81.2ms | Allocations: 21147)
+Completed 200 OK in 109ms (Views: 71.6ms | ActiveRecord: 14.3ms | Allocations: 31234)
+
+
+Started GET "/todos/13" for 127.0.0.1 at 2024-05-06 06:24:55 +0000
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 181)
+  Rendered todos/show.html.erb within layouts/application (Duration: 3.4ms | Allocations: 942)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 1474)
+Completed 200 OK in 13ms (Views: 5.3ms | ActiveRecord: 0.7ms | Allocations: 3690)
+
+
+Started DELETE "/todos/13" for 127.0.0.1 at 2024-05-06 06:25:31 +0000
+Processing by TodosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"13"}
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+  [1m[36mTodo Destroy (1.9ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 13]]
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+  [1m[36mTRANSACTION (13.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+Redirected to http://35.194.33.151/proxy/3000/todos
+Completed 302 Found in 24ms (ActiveRecord: 15.8ms | Allocations: 2458)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 06:25:31 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 172)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 13.9ms | Allocations: 4254)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 4791)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 1.0ms | Allocations: 5098)
+
+
+Started GET "/todos/14" for 127.0.0.1 at 2024-05-06 06:25:57 +0000
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/_todo.html.erb (Duration: 0.8ms | Allocations: 181)
+  Rendered todos/show.html.erb within layouts/application (Duration: 3.5ms | Allocations: 734)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 1266)
+Completed 200 OK in 11ms (Views: 6.8ms | ActiveRecord: 0.5ms | Allocations: 1962)
+
+
+Started DELETE "/todos/14" for 127.0.0.1 at 2024-05-06 06:28:05 +0000
+Processing by TodosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"14"}
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+  [1m[36mTodo Destroy (2.0ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 14]]
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+Redirected to http://35.194.33.151/proxy/3000/todos
+Completed 302 Found in 12ms (ActiveRecord: 4.8ms | Allocations: 2060)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 06:28:06 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (1.1ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 2.0ms | Allocations: 172)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 45.9ms | Allocations: 3997)
+  Rendered layout layouts/application.html.erb (Duration: 47.2ms | Allocations: 4534)
+Completed 200 OK in 49ms (Views: 46.3ms | ActiveRecord: 1.6ms | Allocations: 4841)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 06:28:30 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 172)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 1.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 13.9ms | Allocations: 3951)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 4488)
+Completed 200 OK in 17ms (Views: 14.8ms | ActiveRecord: 1.1ms | Allocations: 4794)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-06 06:32:37 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 2.1ms | Allocations: 604)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 98.9ms | Allocations: 17710)
+  Rendered layout layouts/application.html.erb (Duration: 910.1ms | Allocations: 98740)
+Completed 200 OK in 951ms (Views: 898.8ms | ActiveRecord: 16.9ms | Allocations: 108826)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 06:32:47 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 172)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 15.1ms | Allocations: 3977)
+  Rendered layout layouts/application.html.erb (Duration: 42.6ms | Allocations: 9212)
+Completed 200 OK in 44ms (Views: 42.3ms | ActiveRecord: 1.2ms | Allocations: 9528)
+
+
+Started GET "/todos/15" for 127.0.0.1 at 2024-05-06 06:32:53 +0000
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 15], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 181)
+  Rendered todos/show.html.erb within layouts/application (Duration: 3.0ms | Allocations: 946)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 6164)
+Completed 200 OK in 18ms (Views: 11.8ms | ActiveRecord: 0.6ms | Allocations: 8378)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 06:33:29 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.8ms | Allocations: 604)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 75.2ms | Allocations: 17764)
+  Rendered layout layouts/application.html.erb (Duration: 257.3ms | Allocations: 100169)
+Completed 200 OK in 283ms (Views: 247.2ms | ActiveRecord: 14.7ms | Allocations: 110255)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 06:41:10 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.6ms | Allocations: 454)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 59.5ms | Allocations: 10555)
+  Rendered layout layouts/application.html.erb (Duration: 115.2ms | Allocations: 37044)
+Completed 200 OK in 122ms (Views: 108.9ms | ActiveRecord: 8.8ms | Allocations: 39035)
+
+
+Started DELETE "/todos/16?_method=delete" for 127.0.0.1 at 2024-05-06 06:41:29 +0000
+Processing by TodosController#destroy as TURBO_STREAM
+  Parameters: {"id"=>"16"}
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+  [1m[36mTodo Destroy (2.0ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 16]]
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+  [1m[36mTRANSACTION (3.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+Redirected to http://35.194.33.151/proxy/3000/todos
+Completed 302 Found in 18ms (ActiveRecord: 6.6ms | Allocations: 3868)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 06:42:41 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (1.2ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 2.9ms | Allocations: 601)
+  Rendered todos/_todo.html.erb (Duration: 1.0ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 1.0ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.8ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 112.6ms | Allocations: 17513)
+  Rendered layout layouts/application.html.erb (Duration: 118.8ms | Allocations: 20394)
+Completed 200 OK in 144ms (Views: 102.1ms | ActiveRecord: 21.3ms | Allocations: 30481)
+
+
+Started DELETE "/todos/15?_method=delete" for 127.0.0.1 at 2024-05-06 06:42:51 +0000
+Processing by TodosController#destroy as TURBO_STREAM
+  Parameters: {"id"=>"15"}
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 15], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+  [1m[36mTodo Destroy (2.7ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 15]]
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+Redirected to http://35.194.33.151/proxy/3000/todos
+Completed 302 Found in 18ms (ActiveRecord: 6.2ms | Allocations: 3870)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-06 06:46:33 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.6ms | Allocations: 597)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 68.3ms | Allocations: 17228)
+  Rendered layout layouts/application.html.erb (Duration: 71.9ms | Allocations: 20109)
+Completed 200 OK in 95ms (Views: 62.3ms | ActiveRecord: 13.3ms | Allocations: 30196)
+
+
+Started DELETE "/todos/17?_method=delete" for 127.0.0.1 at 2024-05-06 06:46:42 +0000
+Processing by TodosController#destroy as TURBO_STREAM
+  Parameters: {"id"=>"17"}
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:81:in `set_todo'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+  [1m[36mTodo Destroy (2.5ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 17]]
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+  [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:70:in `destroy'
+Redirected to http://35.194.33.151/proxy/3000/todos
+Completed 302 Found in 16ms (ActiveRecord: 6.1ms | Allocations: 3843)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2024-05-06 06:46:46 +0000
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 6.5ms | Allocations: 2791)
+  Rendered todos/new.html.erb within layouts/application (Duration: 7.8ms | Allocations: 3078)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 3611)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 4049)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 06:46:55 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 0.8ms | Allocations: 168)
+  Rendered todos/_todo.html.erb (Duration: 1.7ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.8ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.8ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 167)
+  Rendered todos/index.html.erb within layouts/application (Duration: 18.0ms | Allocations: 3259)
+  Rendered layout layouts/application.html.erb (Duration: 20.5ms | Allocations: 3793)
+Completed 200 OK in 23ms (Views: 20.3ms | ActiveRecord: 1.5ms | Allocations: 4107)
+
+
+Started POST "/todos" for 127.0.0.1 at 2024-05-06 06:46:56 +0000
+Processing by TodosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"title"=>"test", "description"=>"asdf", "due_date"=>"2024-05-19", "current_status"=>"in_progress"}, "commit"=>"Create Todo"}
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTodo Create (98.1ms)[0m  [1m[32mINSERT INTO "todos" ("title", "description", "due_date", "current_status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "test"], ["description", "asdf"], ["due_date", "2024-05-19"], ["current_status", "in_progress"], ["created_at", "2024-05-06 06:46:56.934183"], ["updated_at", "2024-05-06 06:46:56.934183"]]
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+  [1m[36mTRANSACTION (24.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:45:in `block in create'
+Redirected to http://35.194.33.151/proxy/3000/todos
+Completed 302 Found in 133ms (ActiveRecord: 123.4ms | Allocations: 3293)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 06:46:58 +0000
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 0.7ms | Allocations: 168)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.8ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/index.html.erb within layouts/application (Duration: 42.2ms | Allocations: 3476)
+  Rendered layout layouts/application.html.erb (Duration: 45.9ms | Allocations: 4010)
+Completed 200 OK in 48ms (Views: 45.9ms | ActiveRecord: 1.2ms | Allocations: 4319)
+
+
+Started GET "/todos" for 127.0.0.1 at 2024-05-06 06:54:32 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.4ms | Allocations: 600)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.3ms | Allocations: 171)
+  Rendered todos/index.html.erb within layouts/application (Duration: 66.7ms | Allocations: 17264)
+  Rendered layout layouts/application.html.erb (Duration: 70.4ms | Allocations: 20145)
+Completed 200 OK in 92ms (Views: 61.8ms | ActiveRecord: 12.1ms | Allocations: 30232)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-06 06:56:22 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "todos" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/todos/index.html.erb:17
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:30
+  Rendered todos/_todo.html.erb (Duration: 1.9ms | Allocations: 618)
+  Rendered todos/_todo.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/_todo.html.erb (Duration: 0.3ms | Allocations: 167)
+  Rendered todos/_todo.html.erb (Duration: 0.4ms | Allocations: 171)
+  Rendered todos/index.html.erb within layouts/application (Duration: 86.4ms | Allocations: 20092)
+  Rendered layout layouts/application.html.erb (Duration: 90.2ms | Allocations: 22993)
+Completed 200 OK in 121ms (Views: 82.5ms | ActiveRecord: 12.3ms | Allocations: 33824)
+
+

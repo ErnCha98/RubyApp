@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  #post '/proxy/3000', to: 'todo_filter_controller#filter_action'
+
   scope '(proxy/3000)' do 
   resources :todos
   post '/todos/filter', to: 'todos#filter'

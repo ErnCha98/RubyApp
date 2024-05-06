@@ -70,7 +70,7 @@ class TodosController < ApplicationController
     @todo.destroy!
 
     respond_to do |format|
-      format.html { redirect_to todos_url, notice: "Todo was successfully destroyed." }
+      format.html { redirect_to todos_path, notice: "Todo was successfully destroyed." }
       format.json { head :no_content }
     end
   end
@@ -92,6 +92,11 @@ class TodosController < ApplicationController
 
     def filter_params
       params.fetch(:status_filter)
+    end
+
+    def invalid_todo
+      logger.error "Attempt to access invalid todo #{params[:id]}"
+      redirect_to todos_url, notice: 'Invalid Todo'
     end
 
 end
