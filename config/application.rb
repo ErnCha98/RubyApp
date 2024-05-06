@@ -23,5 +23,9 @@ module RubyApp1
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+    config.action_controller.asset_host = 'proxy/3000'
+    config.action_controller.default_url_options = {host: 'proxy/3000', port: 80}
+  
+    config.serve_static_files = true # for rails4; for rails3 use .serve_static_assets = true
   end
 end

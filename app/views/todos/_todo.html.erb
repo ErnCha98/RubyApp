@@ -5,7 +5,7 @@
 <% else %>
   <tr id="<%= dom_id todo %>">
 <% end %>
-  <td class="text-blue"><%= link_to todo.title, edit_todo_path(todo), class: 'hover:underline' %></td>
+  <td class="text-blue"><%= link_to todo.title, edit_todo_path(todo), class: 'hover:underline', data: { turbo: false }  %></td>
   <td><%= todo.description %></td>
   <td><%= todo.due_date %></td>
   <td><%= todo.current_status.humanize %></td>

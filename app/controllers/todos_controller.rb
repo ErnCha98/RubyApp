@@ -2,7 +2,7 @@ class TodosController < ApplicationController
   before_action :set_collected_statuses, only: [:index, :edit, :update, :new, :create]
   before_action :set_todo, only: %i[ show edit update destroy ]
 
-  skip_before_action :verify_authenticity_token, only: [:create] 
+  skip_before_action :verify_authenticity_token, only: [:create, :edit, :update, :index, :destroy] 
 
   # GET /todos or /todos.json
   def index
@@ -83,7 +83,7 @@ class TodosController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def todo_params
-      params.require(:todo).permit(:title, :description, :due_date, :status)
+      params.require(:todo).permit(:title, :description, :due_date, :current_status)
     end
 
     def set_collected_statuses
