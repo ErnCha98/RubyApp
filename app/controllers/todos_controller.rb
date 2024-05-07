@@ -1,8 +1,9 @@
 class TodosController < ApplicationController
   before_action :set_collected_statuses, only: [:index, :edit, :update, :new, :create]
   before_action :set_todo, only: %i[ show edit update destroy ]
+  rescue_from ActiveRecord::RecordNotFound, with: :invalid_todo
 
-  skip_before_action :verify_authenticity_token, only: [:create, :edit, :update, :index, :destroy] 
+  skip_before_action :verify_authenticity_token, only: [:create, :edit, :update, :index, :destroy, :filter] 
 
   # GET /todos or /todos.json
   def index
@@ -43,7 +44,7 @@ class TodosController < ApplicationController
 
     respond_to do |format|
       if @todo.save
-        format.html { redirect_to todos_path, notice: "Todo was successfully created." }
+        format.html { redirect_to todos_url(protocol: 'https'), notice: "Todo was successfully created." }
         format.json { render :show, status: :created, location: @todo }
       else
         format.html { render :new, status: :unprocessable_entity }
@@ -56,7 +57,7 @@ class TodosController < ApplicationController
   def update
     respond_to do |format|
       if @todo.update(todo_params)
-        format.html { redirect_to todos_path, notice: "Todo was successfully updated." }
+        format.html { redirect_to todos_url(protocol: 'https'), notice: "Todo was successfully updated." }
         format.json { render :show, status: :ok, location: @todo }
       else
         format.html { render :edit, status: :unprocessable_entity }
@@ -70,7 +71,7 @@ class TodosController < ApplicationController
     @todo.destroy!
 
     respond_to do |format|
-      format.html { redirect_to todos_path, notice: "Todo was successfully destroyed." }
+      format.html { redirect_to todos_url(protocol: 'https'), notice: "Todo was successfully destroyed." }
       format.json { head :no_content }
     end
   end
@@ -96,7 +97,7 @@ class TodosController < ApplicationController
 
     def invalid_todo
       logger.error "Attempt to access invalid todo #{params[:id]}"
-      redirect_to todos_url, notice: 'Invalid Todo'
+      redirect_to todos_url(protocol: 'https'), notice: 'Invalid Todo'
     end
 
 end

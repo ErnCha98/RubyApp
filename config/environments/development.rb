@@ -79,7 +79,7 @@ Rails.application.configure do
 
   ##This configuration ensures Rails generates asset URLs pointing to the CDN or external server, rather than 
   #the Rails application's internal asset routing
-  config.action_controller.asset_host = "https://35.194.33.151/proxy/3000/"
+  # config.action_controller.asset_host = "https://35.194.33.151/proxy/3000/"
   
   #config.force_ssl = false
   #config.assets.prefix = '/proxy/'

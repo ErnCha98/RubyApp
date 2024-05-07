@@ -8,7 +8,7 @@ export default class extends Controller {
   async filter() {
     if (this.filterTarget) {
       const params = { status_filter: this.filterTarget.value };
-      const response = await post("todos/filter", {
+      const response = await post("proxy/3000/todos/filter", {
           body: params,
           contentType: 'application/json',
           responseKind: 'turbo-stream'
@@ -20,4 +20,4 @@ export default class extends Controller {
       }
     }
   }
-}
+};
